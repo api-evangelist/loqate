@@ -1,0 +1,23 @@
+{
+  "provider": "loqate",
+  "sources": [
+    "loqate-openapi.json"
+  ],
+  "outputs": [
+    "loqate-plants-api-openapi.yml"
+  ],
+  "archived": [
+    "archived openapi/loqate-openapi.json"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "loqate-openapi.json: upgraded openapi 3.0.1 -> OpenAPI 3.2.0",
+    "loqate-openapi.json: tagged paths GET /plants -> Plants",
+    "loqate-openapi.json: tagged paths POST /plants -> Plants",
+    "loqate-openapi.json: tagged paths DELETE /plants/{id} -> Plants",
+    "loqate-openapi.json: declared missing tag: Plants",
+    "apis.yml register: written (+1 apis, 1 total)"
+  ],
+  "skipped": []
+}

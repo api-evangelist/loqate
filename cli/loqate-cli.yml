@@ -1,0 +1,42 @@
+generated: '2026-10-13'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.loqate.com/sdks/overview.md
+sources:
+- https://docs.loqate.com/sdks/overview.md
+- https://docs.loqate.com/our-services/address-capture/sdk.md
+- https://docs.loqate.com/our-services/store-finder/overview.md
+- https://docs.loqate.com/ai-agents/cli/installation.md
+install:
+- method: macOS (Apple Silicon)
+  command: curl -sL https://github.com/gbgplc/lqt/releases/latest/download/lqt_darwin_arm64.tar.gz | tar xz && sudo mv lqt /usr/local/bin/
+- method: macOS (Intel)
+  command: curl -sL https://github.com/gbgplc/lqt/releases/latest/download/lqt_darwin_amd64.tar.gz | tar xz && sudo mv lqt /usr/local/bin/
+- method: Linux (x86_64)
+  command: curl -sL https://github.com/gbgplc/lqt/releases/latest/download/lqt_linux_amd64.tar.gz | tar xz && sudo mv lqt /usr/local/bin/
+- method: Linux (ARM64)
+  command: curl -sL https://github.com/gbgplc/lqt/releases/latest/download/lqt_linux_arm64.tar.gz | tar xz && sudo mv lqt /usr/local/bin/
+commands:
+- group: verify
+  commands:
+  - lqt verify
+- group: parse
+  commands:
+  - lqt parse
+- group: policy
+  commands:
+  - lqt policy list
+  - lqt policy show
+  - lqt policy validate
+- group: mcp
+  commands:
+  - lqt mcp
+- group: tool-description
+  commands:
+  - lqt tool-description
+- group: version
+  commands:
+  - lqt version
+binary: lqt
+docs: https://docs.loqate.com/sdks/overview.md
+note: 1 extracted row(s) were dropped because their quote was not on the page.

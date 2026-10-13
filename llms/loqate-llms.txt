@@ -1,0 +1,315 @@
+# GBG Loqate
+
+- [Welcome to GBG Loqate Docs](https://docs.loqate.com/introduction.md): Find all the guides and resources you need to build with Loqate
+- [Get Started with Loqate: API Integration Guide](https://docs.loqate.com/loqate-basics/get-started.md): Set up your Loqate account, create an API key, and make your first API request. This guide covers API integration from account creation to testing.
+- [Ways to Integrate](https://docs.loqate.com/loqate-basics/ways-to-integrate.md)
+- [Create an API Key](https://docs.loqate.com/loqate-basics/create-an-api-key.md): Step-by-step guide to creating and configuring Loqate API keys. Set up authentication, configure service limits, and test your first API request.
+- [List of Loqate Endpoints: All APIs by Service Category](https://docs.loqate.com/loqate-basics/list-of-endpoints.md): Complete endpoint reference for Loqate APIs. Find endpoints for address capture, verification, email validation, phone validation, banking, and geocoding.
+- [Country Data Improvements](https://docs.loqate.com/getting-started/country-improvement-program.md)
+- [Managing Your Account](https://docs.loqate.com/loqate-basics/managing-account.md): Manage your account, from who receives key communication to who can access your Loqate Account.
+- [We're Upgrading Your GBG Loqate Account](https://docs.loqate.com/loqate-basics/account-migration.md): At GBG Loqate, we're committed to providing the best possible user experience for our customers. As part of our ongoing efforts to improve usability, we're introducing enhanced user management features within our SaaS platform.
+- [Single Sign-On (SSO) for Your Loqate Account](https://docs.loqate.com/loqate-basics/single-sign-on.md): Connect your own identity provider to your Loqate Account so your team signs in with your company credentials, and let your IT administrators set it up themselves.
+- [Legacy Sign-In](https://docs.loqate.com/loqate-basics/legacy-login.md): How to sign in to an unmigrated Loqate account using your account code and password during the migration period.
+- [Loqate API Security: Best Practices and Configuration](https://docs.loqate.com/loqate-basics/api-security.md): Configure security options for Loqate API keys. Restrict by service, limit by IP or URL, and choose between client-side and server-side integration.
+- [Loqate Usage Monitoring](https://docs.loqate.com/loqate-basics/monitoring-account-usage.md): Track API usage and costs across all Loqate services with detailed reporting by service, key, and time period.
+- [Overview](https://docs.loqate.com/sdks/overview.md): Start with our official Loqate SDKs for [TypeScript](/sdks/typescript) and [.NET](/sdks/dotnet). These early-access SDKs are part of our broader revamp of Loqate's developer tools — designed to simplify integration, remove manual API handling, and get you from setup to working code in minutes.
+- [Loqate TypeScript SDK [BETA]](https://docs.loqate.com/sdks/typescript.md): Easily capture, verify, and enrich address data in TypeScript applications using the official Loqate SDK.
+- [Loqate .NET SDK [BETA]](https://docs.loqate.com/sdks/dotnet.md): The Loqate .NET SDK provides a modern, strongly-typed interface for accessing Loqate's Capture, Verify, and Enrich services in .NET applications.
+- [AI Agent Docs Integration](https://docs.loqate.com/loqate-basics/ai-agent-integration.md): Learn how to integrate AI agents with Loqate documentation using llms.txt, Skills or MCP.
+- [Frequently Asked Questions](https://docs.loqate.com/loqate-basics/faq.md): Answers to common Loqate questions: API key errors, account limits, Tag setup, security settings, and troubleshooting.
+- [Address Capture: Real-Time Address Autocomplete for Forms](https://docs.loqate.com/our-services/address-capture/overview.md): Address Capture offers multiple integration methods including Tag snippets, pre-built platform integrations, SDK, and direct APIs.
+- [Address Capture Quick Start Guide](https://docs.loqate.com/our-services/address-capture/address-capture-quick-start.md): Start using Address Capture in three steps. Set up your API key, search for addresses with Find, and retrieve full details with Retrieve.
+- [Address Capture Implementation Guide](https://docs.loqate.com/our-services/address-capture/implementation-guide.md): Add real-time address autocomplete to your website with copy-paste code examples
+- [Tag Setup Guide – Address, Email And Phone Validation](https://docs.loqate.com/our-services/tag-setup-guide.md): Step-by-step guide to adding Loqate services to your website forms using automatically-generated code snippets.
+- [Address Capture UI SDK](https://docs.loqate.com/our-services/address-capture/sdk.md): Developer guide for the Address Capture UI SDK. Learn how to add the JavaScript library to your site, map form fields, and customize control behavior.
+- [Address Capture Integration Best Practices](https://docs.loqate.com/our-services/address-capture/integration-best-practice.md): Guidelines for Address Capture integration. Optimize API request flow, design effective search interfaces, and configure proper address field mapping.
+- [Address Capture API Endpoints](https://docs.loqate.com/our-services/address-capture/apis.md): Three Address Capture endpoints: Find searches for addresses as users type, Retrieve returns formatted details, Geolocation uses coordinates.
+- [Address Verify: Single/Batch Address Validation and Cleansing](https://docs.loqate.com/our-services/address-verify/overview.md): Address verification and cleansing service with certified datasets, geocoding, reverse geocoding, and transliteration for international addresses.
+- [Address Verify Quick Start Guide for Batch Address Validation](https://docs.loqate.com/our-services/address-verify/address-verify-quick-start.md): Get started with Address Verify. Validate and standardize addresses globally using certified datasets. Includes geocoding and AVC quality codes.
+- [Address Verify Implementation Guide](https://docs.loqate.com/our-services/address-verify/implementation-guide.md): Add address verification and cleansing to your website with copy-paste code examples
+- [Address Verify API Endpoint](https://docs.loqate.com/our-services/address-verify/apis.md): Address Verify provides the International Batch Cleanse endpoint for validating and cleansing addresses globally in single or batch mode.
+- [Country Data Coverage](https://docs.loqate.com/data-coverage/introduction.md)
+- [Loqate International Address Formats](https://docs.loqate.com/data-coverage/loqate-international-address-formats.md): This page documents the latest Loqate international address format definitions for each country and territory, including the preferred line order, field composition, and native-script variants where available.
+- [Release Information](https://docs.loqate.com/release-information/introduction.md)
+- [2025 Q4.0 API Major Release and 202510 data release notes](https://docs.loqate.com/release-information/notes/2025-q4-0-api-major-release-and-202510-data-release-notes.md)
+- [2025Q3.1 API Release Notes](https://docs.loqate.com/release-information/notes/2025q3-1-api-release-notes.md)
+- [2025 Q3.0 API Major Release and 202507 data release notes](https://docs.loqate.com/release-information/notes/2025-q3-0-api-major-release-and-202507-data-release-notes.md)
+- [2025Q2.1 API Release Notes](https://docs.loqate.com/release-information/notes/2025q2-1-api-release-notes.md)
+- [2025Q2.0 API Major release and 202504 Data release Notes](https://docs.loqate.com/release-information/notes/2025q2-0-api-major-release-and-202504-data-release-notes.md)
+- [2025Q1.1 API Release Notes](https://docs.loqate.com/release-information/notes/2025q1-1-api-minor-release.md)
+- [2025Q1.0 API Major release and 202501 Data release Notes](https://docs.loqate.com/release-information/notes/2025q1-0-api-major-release.md)
+- [2024Q4.0 API Minor release and 202410 Data release Notes](https://docs.loqate.com/release-information/notes/2024q4-0-api-major-release.md)
+- [2024Q3.1 API Minor release Notes](https://docs.loqate.com/release-information/notes/2024q3-1-api-minor-release.md)
+- [2024Q3.0 API Major release Notes](https://docs.loqate.com/release-information/notes/2024q3-0-major-release.md)
+- [2024Q2.1 API Minor release and 202406 Data release Notes](https://docs.loqate.com/release-information/notes/2024q2-1-minor-release.md)
+- [2024 Q2.0 Major Release Notes](https://docs.loqate.com/release-information/notes/2024q2-0-major-release.md)
+- [2024 Q1.0 Major Release Notes](https://docs.loqate.com/release-information/notes/2024q1-0-major-release.md)
+- [2024 Q1.1 API Minor release and 202403 Data release Notes](https://docs.loqate.com/release-information/notes/2024q1-1-minor-release.md)
+- [Server Options](https://docs.loqate.com/documentation/server-options.md)
+- [Product Update June 2022](https://docs.loqate.com/available-processes/search-process.md)
+- [Query Process](https://docs.loqate.com/available-processes/query-process.md)
+- [Field Descriptions](https://docs.loqate.com/field-descriptions/introduction.md)
+- [Address Fields](https://docs.loqate.com/field-descriptions/addfields.md)
+- [HasSubPremise](https://docs.loqate.com/field-descriptions/hassubpremise.md)
+- [Unmatched Field](https://docs.loqate.com/field-descriptions/unmatched-field.md)
+- [Geocode Fields](https://docs.loqate.com/field-descriptions/geocode-fields.md)
+- [Process Fields](https://docs.loqate.com/field-descriptions/objfeilds.md)
+- [processStatus](https://docs.loqate.com/field-descriptions/processstatus.md)
+- [serverStatus](https://docs.loqate.com/field-descriptions/serverStatus.md)
+- [SERP Fields](https://docs.loqate.com/field-descriptions/serp-fields.md)
+- [AMAS Fields](https://docs.loqate.com/field-descriptions/amas-fields.md)
+- [CASS Field Descriptions](https://docs.loqate.com/support/cass2-output-field-descriptions.md)
+- [Results String](https://docs.loqate.com/support/result-string.md)
+- [Verify Fields Available When Running CASS2](https://docs.loqate.com/support/verify-fields-available-when-running-cass2.md)
+- [Enhancement Datasets](https://docs.loqate.com/field-descriptions/data-enhancement/overview.md)
+- [US Census Data Fields](https://docs.loqate.com/field-descriptions/data-enhancement/data-enhancement-us-census-data-fields.md)
+- [US Census Plus Data Fields](https://docs.loqate.com/field-descriptions/data-enhancement/us-census-data-enhancement.md)
+- [What are ISO2 codes for Administrative Areas?](https://docs.loqate.com/field-descriptions/data-enhancement/data-enhancement-administrativearea-iso-2-code.md)
+- [GB Enhancement Data Fields](https://docs.loqate.com/field-descriptions/data-enhancement/gb-enhancement-data-fields.md)
+- [Time Zone Enhancement Dataset](https://docs.loqate.com/field-descriptions/data-enhancement/timezone.md)
+- [Residential/Commercial Flag](https://docs.loqate.com/field-descriptions/data-enhancement/residential-commercial-flag.md)
+- [Data Enhancement: Sample API Call](https://docs.loqate.com/field-descriptions/data-enhancement/data-enhancement-sample-api-call.md)
+- [Report Codes](https://docs.loqate.com/report-codes/introduction.md)
+- [Address Verification Code (AVC)](https://docs.loqate.com/report-codes/address-verification-code.md)
+- [FieldStatus](https://docs.loqate.com/report-codes/fieldstatus.md)
+- [GeoAccuracy Code](https://docs.loqate.com/report-codes/geoaccuracy-code.md)
+- [How Are Geocode Accuracy Codes Generated?](https://docs.loqate.com/support/geocode-accuracy-codes-demystified.md)
+- [Address Quality Index](https://docs.loqate.com/report-codes/address-quality-index.md)
+- [Using Transliteration](https://docs.loqate.com/support/character-scripts.md)
+- [Geocode: Convert Addresses to Coordinates and Find Routes](https://docs.loqate.com/our-services/geocode/overview.md): Geocoding and reverse geocoding for international locations. Get coordinates, calculate distances, find directions, and access UK Postzon data.
+- [Geocode API Endpoints](https://docs.loqate.com/our-services/geocode/apis.md): Geocoding and reverse geocoding APIs. Convert addresses to coordinates, calculate distances, and retrieve directions.
+- [Store Finder Tools for Displaying Customer Locations](https://docs.loqate.com/our-services/store-finder/overview.md): Store Finder tools for displaying your locations on maps. Manage location lists, calculate distances, and show travel times to customers.
+- [Store Finder Quick Start Guide](https://docs.loqate.com/our-services/store-finder/store-finder-quick-start.md): Find and display your nearest store locations with distance calculations and interactive maps
+- [Store Finder Implementation Guide](https://docs.loqate.com/our-services/store-finder/implementation-guide.md): Add a store locator to your website with copy-paste code examples
+- [How Store Finder Combines Location Data and Distance Maps](https://docs.loqate.com/our-services/store-finder/how-does-a-store-finder-work.md): Combine location lists, geocoding, and distance calculation to help customers find your nearest stores.
+- [Store Finder API Endpoints for Location and Distance Data](https://docs.loqate.com/our-services/store-finder/apis.md): Manage location lists, geocode addresses, calculate distances, and render maps with Store Finder APIs.
+- [Loqate Utilities Register Provides UK Meter Point Data](https://docs.loqate.com/location-solutions/utilities-register/loqate-utilities-register.md): UK meter point data for gas and electricity suppliers. Retrieve MPxN information, REL details, and switching data by address.
+- [Consuming Premium Data Sets](https://docs.loqate.com/location-solutions/premium-data-sets/consuming-premium-data-sets.md): There are a series of extra datasets available via our Address Capture services.
+- [Property Intelligence Flat File for GB](https://docs.loqate.com/location-solutions/premium-data-sets/property-intelligence-data-directory.md)
+- [Email Validation Verifies Addresses in Real-Time or Batch](https://docs.loqate.com/our-services/email-validation/overview.md): Validate email addresses individually or in batches. Check syntax, domain validity, and mailbox existence with 97% accuracy for deliverability.
+- [Email Validation Quick Start Guide for Individual Validation](https://docs.loqate.com/our-services/email-validation/email-validation-quick-start.md): Get started with Email Validation. Verify email addresses by checking syntax, domain validity, and mailbox existence to reduce bounce rates.
+- [Email Validation Implementation Guide](https://docs.loqate.com/our-services/email-validation/implementation-guide.md): Add email validation to your website with copy-paste code examples
+- [Tag Setup Guide – Address, Email And Phone Validation](https://docs.loqate.com/our-services/tag-setup-guide.md): Step-by-step guide to adding Loqate services to your website forms using automatically-generated code snippets.
+- [Bulk Email Validation](https://docs.loqate.com/our-services/email-validation/bulk-email-validation.md): Submit up to 100,000 emails for async validation. Upload your list, check processing status, and retrieve results using three API endpoints.
+- [Email Validation API Endpoints](https://docs.loqate.com/our-services/email-validation/apis.md): Three Email Validation APIs for different use cases. Validate single addresses, process batches up to 100, or submit bulk jobs up to 100,000.
+- [Phone Validation Verifies Numbers at Point of Entry](https://docs.loqate.com/our-services/phone-validation/overview.md): Validate phone numbers in real-time using Tag snippets, integrations, or APIs. Supports mobile, landline, and VoIP across 237 countries.
+- [Phone Validation Quick Start Guide](https://docs.loqate.com/our-services/phone-validation/phone-validation-quick-start.md): Validate phone numbers in real-time to ensure accurate contact information
+- [Phone Validation Implementation Guide](https://docs.loqate.com/our-services/phone-validation/implementation-guide.md): Add phone validation to your website with copy-paste code examples
+- [Phone Validation Best Practices](https://docs.loqate.com/our-services/phone-validation/best-practices.md): Integrate phone validation into your application with code examples in JavaScript, PHP, and .NET
+- [Tag Setup Guide – Address, Email And Phone Validation](https://docs.loqate.com/our-services/tag-setup-guide.md): Step-by-step guide to adding Loqate services to your website forms using automatically-generated code snippets.
+- [Phone Validation API Endpoints](https://docs.loqate.com/our-services/phone-validation/apis.md): Phone Validation API verifies phone numbers by checking validity, carrier information, and format for mobile, landline, and VoIP numbers.
+- [Bank Validation Verifies UK Accounts and International IBANs](https://docs.loqate.com/our-services/bank-validation/overview.md): Our Bank Validation service lets you query whether UK account number & sort code combinations are valid, or check IBANs for most European countries.
+- [Bank Validation Quick Start Guide](https://docs.loqate.com/our-services/bank-validation/bank-validation-quick-start.md): Get started with Bank Validation APIs. Verify UK account numbers and sort codes, or validate IBANs for EMEA regions to reduce payment failures.
+- [Bank Validation Implementation Guide](https://docs.loqate.com/our-services/bank-validation/implementation-guide.md): Add bank account validation to your website with copy-paste code examples
+- [Bank Validation API Endpoints](https://docs.loqate.com/our-services/bank-validation/apis.md): Four endpoints for UK and international verification. Validate individual accounts, process batches, check IBANs, or lookup sort codes.
+- [Data Maintenance Post Processing Returns Cleansed UK Records](https://docs.loqate.com/our-services/data-maintenance/data-maintenance-post-processing.md): Returned data variables for UK address cleansing, suppression, and enhancement. Includes SFTP transfer, file formats, and output fields.
+- [Welcome to GBG Loqate Tutorials Library](https://docs.loqate.com/tutorials.md): Find technical tutorials that enable you to build with Loqate
+- [Welcome to GBG Loqate Video Library](https://docs.loqate.com/videos.md): Find technical videos that enable you to build with Loqate
+- [Support](https://docs.loqate.com/loqate-basics/support.md)
+- [Slack Community](https://docs.loqate.com/loqate-basics/slack.md)
+- [Developer Blog](https://docs.loqate.com/loqate-basics/blog.md)
+- [APIs overview](https://docs.loqate.com/api-reference/introduction.md): Introduction to Loqate API authentication, base URLs, and key setup. All services require HTTPS connections and valid API keys.
+- [Common Errors](https://docs.loqate.com/api-reference/common-errors.md): Troubleshoot common API errors across Loqate services. Find solutions for authentication issues, credit limits, key restrictions, and more.
+- [Capture Find](https://docs.loqate.com/api-reference/address-capture/find.md): Search for addresses and places with type-ahead functionality. Returns address IDs for use with Retrieve API to get formatted addresses.
+- [Capture Find: Filters](https://docs.loqate.com/api-reference/address-capture/filters.md): Filter address search results by postcode, locality, thoroughfare, organization, and more. Use IS and ISN'T filters to refine address matches.
+- [Capture Retrieve](https://docs.loqate.com/api-reference/address-capture/retrieve.md): Get formatted address details using the ID from Capture Find. Returns address lines, postal codes, and geographic information.
+- [GeoLocation - UK Only](https://docs.loqate.com/api-reference/address-capture/geolocation.md): Find UK addresses within a radius of latitude/longitude coordinates using Ordnance Survey data. Returns address IDs for use with Retrieve API.
+- [International Batch Cleanse](https://docs.loqate.com/api-reference/address-verify/international-batch-cleanse.md): Validate global addresses individually or in batches up to 100 records. Returns verified addresses with standardization and quality indicators.
+- [International Batch Cleanse (Oracle Cloud)](https://docs.loqate.com/api-reference/address-verify/international-batch-cleanse-oci.md): Validate global addresses individually or in batches up to 100 records via the Oracle Cloud-hosted Loqate Verify service. Returns verified addresses with standardization and quality indicators.
+- [Location Management: Create List](https://docs.loqate.com/api-reference/store-finder/location-management-create-list.md): Create location lists with coordinates, addresses, and opening hours. Optional geocoding converts addresses to coordinates for up to 500 locations.
+- [Location Management: Delete List or Point](https://docs.loqate.com/api-reference/store-finder/location-management-delete-list-or-point.md): Permanently delete location lists or individual points using management keys. Deletions cannot be recovered once completed.
+- [Location Management: Update List or Point](https://docs.loqate.com/api-reference/store-finder/location-management-update-list-or-point.md): Update location lists or individual points with new information. Add up to 100 new points per request while preserving existing location data.
+- [Location Management: Get List](https://docs.loqate.com/api-reference/store-finder/location-management-get-list.md): View existing location lists with complete details for all points including coordinates, addresses, and metadata.
+- [Geocoding Typeahead](https://docs.loqate.com/api-reference/store-finder/geocoding-typeahead.md): Type-ahead suggestions for towns, cities, states, and postcodes across 17 countries. Returns coordinates when users select a location from results.
+- [Global Geocoding](https://docs.loqate.com/api-reference/store-finder/global-geocoding.md): Convert addresses to coordinates or reverse geocode coordinates to addresses. Supports most international locations for Store Finder implementations.
+- [Global Distance Finder](https://docs.loqate.com/api-reference/store-finder/global-distance-finder.md): Find road-based distances and travel times between locations. Returns up to 100 nearest points within 500km radius.
+- [Map Tile API](https://docs.loqate.com/api-reference/store-finder/mapping.md): Generate signed URLs for map tiles and basemap data. Use with MapLibre or Leaflet to render interactive maps showing customer locations and stores.
+- [DistancesAndDirections: Directions](https://docs.loqate.com/api-reference/geocode/distances-and-directions/directions.md): Get turn-by-turn directions between coordinates or postcodes. Returns step-by-step instructions with road names, distances, and time for each segment.
+- [DistancesAndDirections: Distance](https://docs.loqate.com/api-reference/geocode/distances-and-directions/distance.md): Calculate total distance and travel time between coordinates or postcodes. Supports multiple waypoints and returns measurements in metres and seconds.
+- [Geocoding: International Geocode](https://docs.loqate.com/api-reference/geocode/geocoding/international-geocode.md): Convert postal codes or place names to WGS84 coordinates for international locations. Returns latitude and longitude for geocoding worldwide.
+- [Geocoding: International PositionToCountry](https://docs.loqate.com/api-reference/geocode/geocoding/international-positiontocountry.md): Identify which country contains specific coordinates. Returns country name and ISO codes from WGS84 latitude and longitude input.
+- [Geocoding: International RetrieveNearestPlaces](https://docs.loqate.com/api-reference/geocode/geocoding/international-retrievenearestplaces.md): Find nearest places of interest within a specified radius from any center point. Returns locations with distances and coordinates in kilometres.
+- [Geocoding: International ReverseGeocode](https://docs.loqate.com/api-reference/geocode/geocoding/international-reversegeocode.md): Convert WGS84 coordinates to nearest street addresses internationally. Returns street number, name, city, province, and postal code.
+- [Geocoding: UK Find](https://docs.loqate.com/api-reference/geocode/geocoding/uk-find.md): Search UK locations by postcode, place name, street or town. Returns location IDs for use with Retrieve to get full coordinates.
+- [Geocoding: UK Geocode](https://docs.loqate.com/api-reference/geocode/geocoding/uk-geocode.md): Convert UK postcodes, place names, or addresses to OS easting/northing and WGS84 coordinates. Returns grid references with accuracy indicators.
+- [Geocoding: UK Retrieve](https://docs.loqate.com/api-reference/geocode/geocoding/uk-retrieve.md): Get OS easting/northing and WGS84 coordinates from UK location IDs. Returns grid references for locations found with UK Find API.
+- [Geocoding: UK RetrieveNearestPlaces](https://docs.loqate.com/api-reference/geocode/geocoding/uk-retrievenearestplaces.md): Find nearest UK places of interest within a radius from postcodes or coordinates. Returns locations with distances in metres and OS grid references.
+- [Geocoding: UK ReverseGeocode](https://docs.loqate.com/api-reference/geocode/geocoding/uk-reversegeocode.md): Convert UK coordinates to nearest postcode. Accepts latitude/longitude or easting/northing input and returns distance with OS grid references.
+- [GovernmentData: Postzon RetrieveByCoordinates](https://docs.loqate.com/api-reference/geocode/governmentdata/postzon-retrievebycoordinates.md): Find nearest UK postcode and government data from coordinates. Returns ONS codes, NHS areas, constituencies, wards, and administrative boundaries.
+- [GovernmentData: Postzon RetrieveByPostcode](https://docs.loqate.com/api-reference/geocode/governmentdata/postzon-retrievebypostcode.md): Get comprehensive UK government data for any postcode. Returns coordinates, ONS codes, NHS areas, constituencies, wards, and council information.
+- [GovernmentData: Postzon RetrieveByPostcodeOrPlace](https://docs.loqate.com/api-reference/geocode/governmentdata/postzon-retrievebypostcodeorplace.md): Search UK government data by postcode or place name. Returns coordinates, ONS codes, NHS areas, constituencies, and local authority information.
+- [StoreFinder: FindPlaceNames](https://docs.loqate.com/api-reference/geocode/store-finder/findplacenames.md): Search towns, cities, and points of interest by name or postal code. Supports fuzzy and partial matching.
+- [StoreFinder: RetrieveCoordinates](https://docs.loqate.com/api-reference/geocode/store-finder/retrievecoordinates.md): Get coordinates for places found with FindPlaceNames. Returns WGS84 latitude/longitude and OS easting/northing for UK location IDs.
+- [IP2Country](https://docs.loqate.com/api-reference/geocode/ip2country/ip2country.md): Identify which country an IP address belongs to. Returns ISO 2 and ISO 3 codes along with full country name.
+- [Batch Email Validation](https://docs.loqate.com/api-reference/email-validation/batch-validate.md): Verify up to 100 email addresses per batch request. Returns validation status, identifies disposable mailboxes, and detects system addresses.
+- [Bulk Email Validation](https://docs.loqate.com/api-reference/email-validation/bulk-validate.md): Validate up to 100,000 email addresses asynchronously using three endpoints. Submit lists, check processing status, and retrieve validation results.
+- [Individual Email Validation](https://docs.loqate.com/api-reference/email-validation/individual.md): Verify individual email addresses in real-time. Returns validation status, risk score, and identifies disposable or temporary mailboxes with 97% accuracy.
+- [Individual Phone Validation](https://docs.loqate.com/api-reference/phone-validation/individual-validate.md): Validate mobile, landline, and VoIP numbers for 237 countries. Returns network operator, number type, and porting or roaming status.
+- [Batch Bank Validation](https://docs.loqate.com/api-reference/bank-validation/batch.md): Validate multiple UK bank accounts and sort codes in bulk. Returns corrected details, IBAN, and branch information.
+- [Individual Bank Validation](https://docs.loqate.com/api-reference/bank-validation/individual.md): Verify UK bank account numbers and sort codes individually. Returns corrected BACS details, IBAN, branch information, and payment service support.
+- [International Bank Validation](https://docs.loqate.com/api-reference/bank-validation/international.md): Validate international bank account numbers internationally - excluding US. Returns whether IBAN format is correct.
+- [Bank Validation: RetrieveBySortcode](https://docs.loqate.com/api-reference/bank-validation/retrievebysortcode.md): Get UK bank branch details using sort code only. Returns bank name, BIC codes, branch contact information, and supported payment service types.
+- [Loqate Integrations for Commerce and CRM Platforms](https://docs.loqate.com/integrations/all-integrations.md): Pre-built Loqate integrations for Shopify Plus, Adobe Commerce, BigCommerce, Salesforce, Microsoft Dynamics 365, commercetools, and more.
+- [Shopify Plus Integration](https://docs.loqate.com/integrations/shopify-plus.md): Native Shopify Plus integration with Address Capture, Address Verify, and Email Validation. Improve checkout data quality.
+- [Shopify Plus Setup Guide](https://docs.loqate.com/integrations/shopify-plus-setup-guide.md): Install Loqate in Shopify Plus checkout in minutes. Enable Address Capture, Address Verify, and Email Validation with simple configuration steps.
+- [Shopify Plus Custom Field Mappings](https://docs.loqate.com/integrations/shopify-plus-custom-field-mappings.md): Configure how Loqate address data maps to Shopify checkout fields, with support for templates, conditional logic, and country-specific overrides.
+- [Adobe Commerce Integration](https://docs.loqate.com/integrations/adobe-commerce.md): Add Address Capture, Address Verify, Email and Phone Validation to Adobe Commerce (Magento) checkout, registration, customer accounts and admin.
+- [Adobe Commerce Setup Guide](https://docs.loqate.com/integrations/adobe-commerce-setup-guide.md): Install, upgrade and configure Loqate Address Capture, Address Verify, Email and Phone Validation in Adobe Commerce (Magento).
+- [Salesforce Commerce Cloud Integration](https://docs.loqate.com/integrations/salesforce-commerce-cloud.md): Add Address Capture, Email and Phone Validation to Salesforce Commerce Cloud with the Loqate cartridge. Reduce input time and improve data accuracy.
+- [Salesforce Commerce Cloud Setup Guide](https://docs.loqate.com/integrations/salesforce-commerce-cloud-setup-guide.md): Install the Loqate cartridge in Salesforce Commerce Cloud, import metadata, configure settings and map Address Capture, Email and Phone Validation to your fields.
+- [Salesforce CRM Integration](https://docs.loqate.com/integrations/salesforce-crm.md): Add Address Capture, Email and Phone Validation to Salesforce CRM. Install from AppExchange and use Lightning components and Flows.
+- [Salesforce CRM Setup Guide](https://docs.loqate.com/integrations/salesforce-crm-setup-guide.md): Install the Loqate app from AppExchange, assign permission sets, and configure Address Capture, Email and Phone Validation in Salesforce CRM.
+- [BigCommerce Integration](https://docs.loqate.com/integrations/bigcommerce.md): Add Loqate type-ahead address lookup to your BigCommerce store with a generated code snippet and Script Manager. No custom development needed.
+- [BigCommerce Setup Guide](https://docs.loqate.com/integrations/bigcommerce-setup-guide.md): Generate a Loqate code snippet with BigCommerce field mappings and add it to your store with Script Manager.
+- [commercetools Integration](https://docs.loqate.com/integrations/commercetools.md): Reference implementation for integrating Address Capture, Address Verify, Email and Phone Validation with commercetools Frontend checkout, My Account and registration.
+- [commercetools Setup Guide](https://docs.loqate.com/integrations/commercetools-setup-guide.md): Install Loqate validation in commercetools B2C Frontend. Backend-for-frontend controller setup and React component integration instructions.
+- [commercetools Studio Settings](https://docs.loqate.com/integrations/commercetools-studio-settings.md): Configure Loqate Address Capture, Address Verify, Email and Phone Validation in commercetools Studio. Set API keys and validation thresholds.
+- [Microsoft Dynamics 365 Integration](https://docs.loqate.com/integrations/microsoft-dynamics-365.md): Add Loqate Address Search, Email and Phone Verification controls to Microsoft Dynamics 365 forms. Import the solution and configure each field.
+- [Microsoft Dynamics 365 Setup Guide](https://docs.loqate.com/integrations/microsoft-dynamics-365-setup-guide.md): Import the Loqate solution into Dynamics 365 and add Address Search, Email and Phone Verification controls to your forms.
+- [Oracle Cloud Marketplace Integration](https://docs.loqate.com/integrations/oracle-cloud-marketplace.md): Deploy Loqate Verify services in your own Oracle Cloud tenancy via the Oracle Cloud Marketplace. Process address validation at scale with full control of data residency.
+- [Reapit Integration](https://docs.loqate.com/integrations/reapit.md): Add Loqate Email and Phone Validation to Reapit alongside Address Capture. Download the apps from Reapit AppMarket and add your API keys.
+- [Reapit Setup Guide](https://docs.loqate.com/integrations/reapit-setup-guide.md): Install Loqate Email and Phone Validation in Reapit. Create API keys, download the apps from Reapit AppMarket and add your keys.
+- [Shopware 6 Integration](https://docs.loqate.com/integrations/shopware.md): Add Loqate address, email and phone validation to Shopware 6. Install from the Shopware Store and configure each service per sales channel.
+- [Shopware 6 Setup Guide](https://docs.loqate.com/integrations/shopware-setup-guide.md): Install the Loqate extension from the Shopware Store, add your API key and activate address, email and phone validation per sales channel.
+- [Verify On-Premise Documentation](https://docs.loqate.com/getting-started/introduction.md)
+- [Getting Started](https://docs.loqate.com/getting-started/overview.md)
+- [Supported Platforms](https://docs.loqate.com/getting-started/platforms.md)
+- [System Requirements](https://docs.loqate.com/getting-started/system-requirements/introduction.md)
+- [AIX](https://docs.loqate.com/getting-started/system-requirements/aix.md)
+- [Windows 32-bit](https://docs.loqate.com/getting-started/system-requirements/win32bit.md)
+- [Windows 64-bit](https://docs.loqate.com/getting-started/system-requirements/win64bit.md)
+- [Linux 64-bit](https://docs.loqate.com/getting-started/system-requirements/linux64bit.md)
+- [Loqate API Architecture](https://docs.loqate.com/getting-started/loqate-api-architecture.md)
+- [Local API Install Options](https://docs.loqate.com/getting-started/local-api-install-options.md)
+- [Verify Helm Charts Overview](https://docs.loqate.com/helm/overview.md): Deploy Verify on Kubernetes using Helm charts for scalable, cloud-native address verification
+- [Verify Helm Quick Start](https://docs.loqate.com/helm/quick-start.md): Deploy Verify to Kubernetes in minutes using Helmfile
+- [Verify Helm Configuration](https://docs.loqate.com/helm/configuration.md): Configure country-specific deployments, certified datasets, and resource allocation
+- [Managing Verify](https://docs.loqate.com/helm/usage.md): Helm and Helmfile commands for managing, monitoring, and testing your Verify deployment
+- [Troubleshooting Verify](https://docs.loqate.com/helm/troubleshooting.md): Common errors and solutions for Verify Helm deployment issues
+- [On-Premise Documentation](https://docs.loqate.com/documentation/introduction.md)
+- [SFTP Contents](https://docs.loqate.com/release-information/sftp-content.md)
+- [Available Processes](https://docs.loqate.com/available-processes/introduction.md)
+- [Parse Process](https://docs.loqate.com/available-processes/parse-process.md)
+- [Match Process](https://docs.loqate.com/available-processes/match-process.md)
+- [Format Process](https://docs.loqate.com/available-processes/format-process.md)
+- [Verify Process](https://docs.loqate.com/available-processes/verify-process.md)
+- [GKRInfo Tool](https://docs.loqate.com/available-processes/gkrinfo-process.md)
+- [Reverse Geocode Process](https://docs.loqate.com/available-processes/reverse-geocode-process.md)
+- [Geocode Process](https://docs.loqate.com/available-processes/geocode-process.md)
+- [Report Process](https://docs.loqate.com/available-processes/report-process.md)
+- [Country Process](https://docs.loqate.com/available-processes/country-process.md)
+- [Local API](https://docs.loqate.com/local-apis/introduction.md)
+- [SERP Overview](https://docs.loqate.com/local-apis/serp-overview.md)
+- [Tutorials](https://docs.loqate.com/tutorials/introduction.md): Learn how to use Loqate's products with our tutorials, sample code, and examples
+- [How to Integrate the Loqate C++ API using Microsoft Visual Studio](https://docs.loqate.com/tutorials/cpp-api.md)
+- [Creating a Sample Java-based Batch File Processor](https://docs.loqate.com/tutorials/java-api.md)
+- [How to Integrate the Loqate .NET API using Microsoft Visual Studio](https://docs.loqate.com/tutorials/dotnet-api.md)
+- [Loqate Video Tutorials](https://docs.loqate.com/tutorials/loqate-video-tutorials.md)
+- [Installation Guide (Windows)](https://docs.loqate.com/tutorials/local-install-guide.md)
+- [Loqate Multithreading Sample Code in Java](https://docs.loqate.com/tutorials/multithread.md)
+- [Loqate Installation Instructions](https://docs.loqate.com/tutorials/loqate-installation-instructions.md)
+- [Sample Code](https://docs.loqate.com/tutorials/sample-code/introduction.md)
+- [How to Integrate the Loqate C++ API using Microsoft Visual Studio [DUPLICATE]](https://docs.loqate.com/tutorials/sample-code/cpp-sample-code.md)
+- [CASS2 Java sample code](https://docs.loqate.com/tutorials/sample-code/cass2-java-sample-code.md)
+- [Creating a Sample Java-based Batch File Processor [DUPLICATE]](https://docs.loqate.com/tutorials/sample-code/java-sample-code.md)
+- [Sample Java Code: LoqateJavaRegisterDemo.java](https://docs.loqate.com/tutorials/sample-code/cass2-csharp-sample-code.md)
+- [Sample Java Code: LoqateJavaRegisterDemo.java](https://docs.loqate.com/tutorials/sample-code/register-java-example.md)
+- [Python Sample Code](https://docs.loqate.com/tutorials/sample-code/python-sample-code.md)
+- [Creating a Simplified Verify Demo GUI in C# Using the Loqate .NET API](https://docs.loqate.com/tutorials/sample-code/verify-gui-in-csharp.md)
+- [Creating a Simplified Register Demo GUI in C# Using the Loqate .NET API](https://docs.loqate.com/tutorials/sample-code/register-gui-in-csharp.md)
+- [Creating a Simplified Query Demo GUI in C# Using the Loqate .NET API](https://docs.loqate.com/tutorials/sample-code/query-gui-in-csharp.md)
+- [C++ Example](https://docs.loqate.com/tutorials/examples/c-example.md)
+- [Java Example](https://docs.loqate.com/tutorials/examples/java-example.md)
+- [Loqate Multithreading Sample Code (LqtMultithreadTestDriver.java)](https://docs.loqate.com/tutorials/examples/java-multithread.md)
+- [Loqate Multithread Sample Code (LqtThreadRunner.java)](https://docs.loqate.com/tutorials/examples/java-threadrunner.md)
+- [Request Support](https://docs.loqate.com/support/file-a-bug.md)
+- [Integration Guide](https://docs.loqate.com/support/integration.md)
+- [Support Case Handling](https://docs.loqate.com/support/case-handling.md)
+- [How to Obtain Version Information](https://docs.loqate.com/release-information/how-to-obtain-version-information.md)
+- [USA CASS2 Engine](https://docs.loqate.com/support/usa-cass-v2.md)
+- [Interactive Test Client Guide](https://docs.loqate.com/support/lqtinter-guide.md)
+- [Command Line Batch Processor](https://docs.loqate.com/support/batch-processor.md)
+- [Match Rules](https://docs.loqate.com/support/match-rules-syntax.md)
+- [MD5 Hashes For Data Download & Installation](https://docs.loqate.com/support/md5-hash-values-guide.md)
+- [Geographic Data Hierarchy](https://docs.loqate.com/support/geographic-data-hierachy.md)
+- [DuplicateHandlingMask Option](https://docs.loqate.com/support/duplicatehandlingmask-option.md)
+- [Installed API Reference](https://docs.loqate.com/support/installed-api/introduction.md)
+- [lqtInputRecord](https://docs.loqate.com/support/installed-api/lqtinputrecord.md)
+- [lqtMatchInfo](https://docs.loqate.com/support/installed-api/lqtmatchinfo.md)
+- [lqtProcessList](https://docs.loqate.com/support/installed-api/lqtprocesslist.md)
+- [lqtProcessOptions](https://docs.loqate.com/support/installed-api/lqtprocessoption.md)
+- [lqtProcessResult](https://docs.loqate.com/support/installed-api/lqtprocessresult.md)
+- [lqtServer](https://docs.loqate.com/support/installed-api/lqtserver.md)
+- [Installers](https://docs.loqate.com/installers/introduction.md)
+- [Installation Manager Install Options](https://docs.loqate.com/installers/installation-manager.md)
+- [Installation Manager Install Process](https://docs.loqate.com/installers/installation-manager-install-process.md)
+- [Local API install process](https://docs.loqate.com/installers/local-api-install-process.md)
+- [Data Installation And Update Process](https://docs.loqate.com/installers/data-installation-and-update-process.md)
+- [Install Manager Installation Scenarios](https://docs.loqate.com/installers/example/installation-scenarios.md)
+- [Online Installation](https://docs.loqate.com/installers/example/online-installation.md)
+- [Offline Installation](https://docs.loqate.com/installers/example/offline-installation.md)
+- [Loqate for AI Agents](https://docs.loqate.com/ai-agents/introduction.md): Verify addresses, emails, and phone numbers from agentic systems — with confidence scores, policy-aware recommendations, and full audit trails.
+- [Overview](https://docs.loqate.com/ai-agents/overview.md): Reach is Loqate's agent-native verification tool — a CLI and MCP server that verifies addresses, emails, and phone numbers with deterministic scoring and policy-driven recommendations.
+- [Quick Start](https://docs.loqate.com/ai-agents/quickstart.md): Install the Reach CLI and verify your first address in under 2 minutes.
+- [CLI Installation](https://docs.loqate.com/ai-agents/cli/installation.md): Install the lqt CLI on macOS, Linux, or Windows.
+- [Verify Command](https://docs.loqate.com/ai-agents/cli/verify.md): Verify addresses, emails, and phone numbers with policy-driven recommendations.
+- [Parse Command](https://docs.loqate.com/ai-agents/cli/parse.md): Parse and standardize contact data using Claude Haiku — no Loqate credits consumed.
+- [Batch Processing](https://docs.loqate.com/ai-agents/cli/batch.md): Verify or parse CSV files of contact data in bulk.
+- [MCP Server](https://docs.loqate.com/ai-agents/mcp/overview.md): Run Reach as an MCP server for Claude, Cursor, VS Code, and other MCP-compatible clients.
+- [MCP Tools](https://docs.loqate.com/ai-agents/mcp/tools.md): The nine MCP tools available when running Reach as an MCP server.
+- [IBM watsonx Orchestrate Agent](https://docs.loqate.com/ai-agents/wxo/overview.md): Reach as a native watsonx Orchestrate (WXO) agent — a data-quality agent that verifies and cleanses address, email, and phone data from inside WXO chats, collaborations, and workflows.
+- [Usage](https://docs.loqate.com/ai-agents/wxo/usage.md): Discover and add the Reach agent in watsonx Orchestrate, then use it in chat, as a collaborator, or as a step in an agentic workflow.
+- [Policies](https://docs.loqate.com/ai-agents/reference/policies.md): Built-in and custom policy frameworks for controlling verification decisioning.
+- [Configuration](https://docs.loqate.com/ai-agents/reference/configuration.md): Authentication, environment variables, and key resolution for the Reach CLI and MCP server.
+- [GBG Loqate Release Notes Portal](https://docs.loqate.com/release-notes/all-loqate.md): Product and data release notes for GBG Loqate services
+- [GBG Loqate Product Release Notes](https://docs.loqate.com/release-notes/product-rel.md): Product release notes for GBG Loqate services
+- [GBG Loqate Data Release Notes](https://docs.loqate.com/release-notes/data-rel.md): Data release notes for GBG Loqate services
+
+## OpenAPI Specs
+
+- [capture_interactive_find](/api-reference/address-capture/capture_interactive_find.json)
+- [capture_interactive_geolocation](/api-reference/address-capture/capture_interactive_geolocation.json)
+- [capture_interactive_retrieve](/api-reference/address-capture/capture_interactive_retrieve.json)
+- [cleansing_international_batch_oci](/api-reference/address-verify/cleansing_international_batch_oci.json)
+- [cleansing_international_batch_v_1_1](/api-reference/address-verify/cleansing_international_batch_v_1_1.json)
+- [cleansing_international_batch](/api-reference/address-verify/cleansing_international_batch.json)
+- [bank_batch](/api-reference/bank-validation/bank_batch.json)
+- [bank_individual](/api-reference/bank-validation/bank_individual.json)
+- [bank_international](/api-reference/bank-validation/bank_international.json)
+- [bank_retrieve_by_sortcode](/api-reference/bank-validation/bank_retrieve_by_sortcode.json)
+- [bulk_email_retrieve](/api-reference/email-validation/bulk_email_retrieve.json)
+- [bulk_email_status](/api-reference/email-validation/bulk_email_status.json)
+- [bulk_email_submit](/api-reference/email-validation/bulk_email_submit.json)
+- [email_batch](/api-reference/email-validation/email_batch.json)
+- [email_individual](/api-reference/email-validation/email_individual.json)
+- [geocode_directions](/api-reference/geocode/distances-and-directions/geocode_directions.json)
+- [geocode_distance](/api-reference/geocode/distances-and-directions/geocode_distance.json)
+- [international_geocode](/api-reference/geocode/geocoding/international_geocode.json)
+- [international_positiontocountry](/api-reference/geocode/geocoding/international_positiontocountry.json)
+- [international_retrievenearestplaces](/api-reference/geocode/geocoding/international_retrievenearestplaces.json)
+- [international_reversegeocode](/api-reference/geocode/geocoding/international_reversegeocode.json)
+- [uk_find](/api-reference/geocode/geocoding/uk_find.json)
+- [uk_geocode](/api-reference/geocode/geocoding/uk_geocode.json)
+- [uk_retrieve](/api-reference/geocode/geocoding/uk_retrieve.json)
+- [uk_retrievenearestplaces](/api-reference/geocode/geocoding/uk_retrievenearestplaces.json)
+- [uk_reversegeocode](/api-reference/geocode/geocoding/uk_reversegeocode.json)
+- [postzon_retrievebycoordinates](/api-reference/geocode/governmentdata/postzon_retrievebycoordinates.json)
+- [postzon_retrievebypostcode](/api-reference/geocode/governmentdata/postzon_retrievebypostcode.json)
+- [postzon_retrievebypostcodeorplace](/api-reference/geocode/governmentdata/postzon_retrievebypostcodeorplace.json)
+- [extras_web_ip2country](/api-reference/geocode/ip2country/extras_web_ip2country.json)
+- [findplacenames](/api-reference/geocode/store-finder/findplacenames.json)
+- [retrievecoordinates](/api-reference/geocode/store-finder/retrievecoordinates.json)
+- [openapi](/api-reference/openapi.json)
+- [phone_individual](/api-reference/phone-validation/phone_individual.json)
+- [create_list](/api-reference/store-finder/create_list.json)
+- [delete_list_or_point](/api-reference/store-finder/delete_list_or_point.json)
+- [geocoding_typeahead](/api-reference/store-finder/geocoding_typeahead.json)
+- [get_list](/api-reference/store-finder/get_list.json)
+- [global_distance_finder](/api-reference/store-finder/global_distance_finder.json)
+- [global_geocoding](/api-reference/store-finder/global_geocoding.json)
+- [mapping_get_url](/api-reference/store-finder/mapping_get_url.json)
+- [update_list_or_point](/api-reference/store-finder/update_list_or_point.json)
+- [verify-openapi](/api-reference/verify-openapi.json)
+- [openapi](/archive/api-reference/openapi.json)
+- [verify-openapi](/archive/api-reference/verify-openapi.json)
+- [IntV2](/our-services/bank_validation/API/IntV2.json)

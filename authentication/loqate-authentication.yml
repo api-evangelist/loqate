@@ -1,0 +1,17 @@
+generated: '2026-10-13'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.loqate.com/loqate-basics/create-an-api-key.md
+sources:
+- https://docs.loqate.com/loqate-basics/create-an-api-key.md
+- https://docs.loqate.com/getting-started/country-improvement-program.md
+- https://docs.loqate.com/our-services/address-capture/address-capture-quick-start.md
+- https://docs.loqate.com/our-services/tag-setup-guide.md
+description: All Loqate services require a valid and active API key for authentication.
+schemes:
+- type: apiKey
+  name: Key
+  evidence: All Loqate services require a valid and active API key for authentication.
+  location: query
+  how_to_obtain: Create an API key in the Loqate account setup page.
+docs: https://docs.loqate.com/loqate-basics/create-an-api-key.md

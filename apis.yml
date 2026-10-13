@@ -1,23 +1,123 @@
 aid: loqate
 name: Loqate
-description: 'Loqate is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and
-  added to the network as a stub for full-pipeline profiling.'
+image: https://www.loqate.com/media/ugzjtvos/opengraph.png
+description: Loqate provides global address validation, capture, and data enrichment services, offering APIs for address verification, email,
+  phone, and bank validation, as well as geocoding and store finder solutions. It serves enterprises across e‑commerce, fintech, travel, and logistics
+  with scalable, secure, and compliant data quality tools.
 url: https://raw.githubusercontent.com/api-evangelist/loqate/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:tag-qc
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-13 (modular-v1; was harvest)
 specificationVersion: '0.20'
 created: '2026-10-13'
 modified: '2026-10-13'
 tags:
-- Company
-apis: []
+- Address Validation
+- Data Quality
+- Email Validation
+- Phone Validation
+- Retail
+- Fintech
+- Logistics
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: AgenticAccess
+  url: agentic-access/loqate-agentic-access.yml
+- type: Plans
+  url: plans/loqate-plans-pricing.yml
+- type: Spectral
+  url: rules/loqate-rules.yml
+- type: JSONLD
+  url: json-ld/loqate-context.jsonld
+- type: Vocabulary
+  url: vocabulary/loqate-vocabulary.yml
+- type: DataModel
+  url: data-model/loqate-data-model.yml
+- type: CLI
+  url: cli/loqate-cli.yml
+- type: ChangeLog
+  url: changelog/loqate-changelog.yml
+- type: Authentication
+  url: authentication/loqate-authentication.yml
+- type: ErrorCatalog
+  url: errors/loqate-problem-types.yml
+- type: Conformance
+  url: conformance/loqate-conformance.yml
+- type: LLMsTxt
+  url: llms/loqate-llms.txt
+- type: AgentCard
+  url: a2a/loqate-a2a.yml
+- type: Hosts
+  url: hosts/loqate-hosts.yml
+- type: Vendors
+  url: vendors/loqate-vendors.yml
+- type: TermsOfService
+  url: https://www.loqate.com/anz/terms/
+- type: PrivacyPolicy
+  url: https://www.loqate.com/en-us/privacy/
+- type: Pricing
+  url: https://www.loqate.com/en-us/pricing/
+- type: Newsroom
+  url: https://www.loqate.com/en-us/news/
+- type: DeveloperPortal
+  url: https://www.loqate.com/developers/
+- type: ChangeLog
+  url: https://docs.loqate.com/release-notes/all-loqate
+- type: Blog
+  url: https://www.loqate.com/blog/
+- type: GettingStarted
+  url: https://docs.loqate.com/getting-started/country-improvement-program
+- type: Documentation
+  url: https://docs.loqate.com/
+- type: APIReference
+  url: https://docs.loqate.com/llms.txt
+- type: DomainSecurity
+  url: security/loqate-domain-security.yml
 - type: Website
   url: https://www.loqate.com/
+apis:
+- aid: loqate:loqate-plants-api
+  name: Loqate Plants API
+  description: The Plants API from Loqate — 2 operation(s) for plants.
+  humanURL: https://docs.loqate.com/api-reference/introduction
+  baseURL: https://api.loqate.com
+  tags:
+  - Plants
+  properties:
+  - type: OpenAPI
+    url: openapi/loqate-plants-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/loqate-new-plant-schema.json
+  - type: JSONSchema
+    url: json-schema/loqate-plant-schema.json
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: API reference pages exist but no OpenAPI spec was found at the API host.
+  evidence:
+  - url: https://api.loqate.com/openapi.json
+    status: 404
+  - url: https://api.loqate.com/openapi.yaml
+    status: 404
+  - url: https://api.loqate.com/swagger.json
+    status: 404
+  - url: https://api.loqate.com/v1/openapi.json
+    status: 404
+  - url: https://api.loqate.com/api-docs
+    status: 404
+  - url: https://api.loqate.com/docs
+    status: 404
+  - url: https://api.loqate.com/redoc
+    status: 404
+  checked: '2026-10-13'
+x-enrichment:
+  date: '2026-10-13'
+  status: enriched
+  artifacts_added: 21
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

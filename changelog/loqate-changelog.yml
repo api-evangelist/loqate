@@ -1,0 +1,34 @@
+generated: '2026-10-13'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.loqate.com/loqate-basics/account-migration.md
+sources:
+- https://docs.loqate.com/loqate-basics/account-migration.md
+- https://docs.loqate.com/release-information/notes/2025-q4-0-api-major-release-and-202510-data-release-notes.md
+- https://docs.loqate.com/release-information/notes/2025q3-1-api-release-notes.md
+- https://docs.loqate.com/release-information/notes/2025-q3-0-api-major-release-and-202507-data-release-notes.md
+entries:
+- breaking: false
+  highlights:
+  - The 2025Q4.0 Major Release makes improvements and fixes to the verification process and the quality of the results.
+  - These enhancements are tied to both the data and the API so please update both.
+  - There are 5 case fixes to our API in this release and details of these are available in the API Release Notes.
+  - This release includes data updates for 43 countries and 10 case fixes, full details are in the Data Release Notes.
+  version: 2025 Q4.0
+- breaking: false
+  highlights:
+  - The 2025Q3.1 Minor Release makes improvements to the verification process and the quality of the results.
+  - There are 3 enhancements to the API in this minor release.
+  - There are 3 customer and one internal fix to our API in this release, details of these are available in the API Release Notes.
+  - For a list of resolved support cases in this release please click here.
+  version: 2025Q3.1
+- breaking: false
+  highlights:
+  - The 2025 Q3.0 Major Release makes improvements and fixes to the verification process and the quality of the results.
+  - These enhancements are tied to both the data and the API so please update both.
+  - There are 6 case fixes to our API in this release and details of these are available in the API Release Notes.
+  - This release includes data updates for 26 countries and 8 case fixes, full details are in the Data Release Notes.
+  version: 2025 Q3.0
+current_version: 2025 Q4.0
+note: Versioning scheme follows a 'YYYY Qx.y' pattern where Q denotes the quarter and the optional .y denotes a minor release.
+docs: https://docs.loqate.com/loqate-basics/account-migration.md

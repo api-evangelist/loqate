@@ -1,0 +1,26 @@
+generated: '2026-10-13'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.loqate.com/en-us/pricing/
+sources:
+- https://www.loqate.com/en-us/pricing/
+name: Loqate pricing
+audience: developer-api
+pricing_basis: per-seat
+plans:
+- name: $100 Plan
+  price_text: $100
+  price: 100
+  description: 'Cost per lookup: 5c Address Capture - US & CAN, 10.8c Address Capture - International, 5c Email Validation, 5c Phone Validation,
+    6c Address Verify, Store Finder, 0.66c Maps, 0.47c Geocoding, 0.47c Distances'
+- name: $300 Plan
+  price_text: $300
+  price: 300
+  description: 'Cost per lookup: 4.5c Address Capture - US & CAN, 7.4c Address Capture - International, 3.7c Email Validation, 3.7c Phone Validation,
+    4.9c Address Verify, Store Finder, 0.62c Maps, 0.42c Geocoding, 0.42c Distances'
+- name: $1000 Plan
+  price_text: $1000
+  price: 1000
+  description: 'Cost per lookup: 4.3c Address Capture - US & CAN, 6.1c Address Capture - International, 3.1c Email Validation, 3.1c Phone Validation,
+    4.1c Address Verify, Store Finder, 0.57c Maps, 0.40c Geocoding, 0.40c Distances'
+docs: https://www.loqate.com/en-us/pricing/
